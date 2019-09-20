@@ -1,0 +1,64 @@
+<html lang="en">
+    <head>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <div id="nav-placeholder">
+
+            </div>
+            
+            <script>
+            $(function(){
+              $("#nav-placeholder").load("nav.html");
+            });
+            </script>
+    </head>
+    
+    <body>
+        <div id="carousel" class="carousel slide" data-ride="carousel" style="width: 1200px; height:800px; margin: 0 auto">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class = "active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner active">
+                    <div class="carousel-item active">
+                        <img src="img/WavleyDam.jpeg" alt="carousel" width="1200", height="800">
+                        <div class="carousel-caption">
+                            <h3>Peak District - Goyt Valley</h3>
+                          </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/breacon2.jpeg" alt="carousel" width="1200" height="800">
+                        <div class="carousel-caption">
+                            <h3>Brecon Beacons - Pontsticill Reservoir</h3>
+                          </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/swansea.jpeg" alt="carousel"  width="1200" height="800">
+                        <div class="carousel-caption">
+                            <h3>Swansea Peninsula - Rhosilli Bay Beach</h3>
+                          </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/ullswater.jpeg" alt="carousel"  width="1200" height="800">
+                        <div class="carousel-caption">
+                            <h3>Lake District - Ullswater</h3>
+                          </div>
+                    </div>
+                </div>
+
+                <a class="left carousel-control-prev" href="#carousel" data-slide="prev"> 
+                        <span class="carousel-control-prev-icon"></span> 
+                    </a> 
+                    <a class="right carousel-control-next" href="#carousel" data-slide="next"> 
+                        <span class="carousel-control-next-icon"></span> 
+                    </a>  
+
+            </div>
+
+        </body>
+
+</html>

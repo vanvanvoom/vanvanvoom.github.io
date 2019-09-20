@@ -1,0 +1,105 @@
+<head>  
+                  
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+      
+        <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+          
+        <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script> 
+          
+        <script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> </script> 
+          
+        <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> </script> 
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="../main.css">
+        
+        
+        <nav class="navbar navbar-expand navbar-light bg-light flex-column">
+            <a class="navbar-brand mx-auto"><img src="/img/logo.png" width="80" height="80"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id = "myDIV" class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span> </a>
+                    </li>
+                    <!-- <li class="nav-item">
+                            <a class="nav-link" href="/Build">Build </a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="/About/index.html">About us & timeline </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/Build" id="navbardrop" data-toggle="dropdown">
+                              Build
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="/Build/frontseats.html">Front seats</a>
+                              <a class="dropdown-item" href="/Build/kitchen.html">Kitchen</a>
+                              <a class="dropdown-item" href="/Build/sittingroom.html">Sitting room</a>
+                              <a class="dropdown-item" href="/Build/bedroom.html">Bedroom</a>
+                              <a class="dropdown-item" href="/Build/soft.html">Soft Furnishing</a>
+                              <a class="dropdown-item" href="/Build/boot.html">Car boot</a>
+                              <a class="dropdown-item" href="/Build/bodywork.html">Bodywork</a>
+                              <a class="dropdown-item" href="/Build/website.html">Website</a>
+                            </div>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/UK Trips" id="navbardrop" data-toggle="dropdown">
+                                UK Trips
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Swansea Peninsula</a>
+                                <a class="dropdown-item" href="#">Brecon Beacons</a>
+                                <a class="dropdown-item" href="#">Lake District</a>
+                                <a class="dropdown-item" href="#">Edinburgh</a>
+                            </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/Gallery" id="navbardrop" data-toggle="dropdown">
+                              Gallery
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Summer 2019</a>
+                              <a class="dropdown-item" href="#">Winter 2019</a>
+                            </div>
+                    </li> -->
+
+                </ul>
+            </div>
+        </nav>
+</head>
+<body>
+    
+    <!-- <script type="text/javascript">
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById("myDIV");
+      var btns = header.getElementsByClassName("nav-link");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        });
+      }
+</script> -->
+
+<!-- <script>
+    // Add active class to the current button (highlight it)check is addevent listener is working 
+    var header = document.getElementById("myDIV");
+    var btns = header.getElementsByClassName("nav-link");
+    for (var i = 0; i < btns.length; i++) {
+      console.log(btns[i])
+      btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      if (current.length > 0) { 
+        current[0].className = current[0].className.replace(" active", "");
+      }
+      this.className += " active";
+      });
+    }
+    </script> -->
+</body>

@@ -1,0 +1,10 @@
+# name: vanvanvoom
+# markdown: redcarpet
+# highlighter: pygments
+# baseurl: /vanvanvoom
+permalink: pretty
+exclude: [ node_modules, bower_components ]
+paginate: 10
+# gems:
+#   - jekyll-paginate
+# paginate_path: "/vanvanvoom/:num/"
