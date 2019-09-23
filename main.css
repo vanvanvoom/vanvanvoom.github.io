@@ -59,6 +59,9 @@ p.location {
   font-weight: bold;
 
 }
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
 
 /************* timeline demo *********/
 a{text-decoration:none}
